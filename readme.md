@@ -1,0 +1,2 @@
+Bugs:
+There are still minor bugs left like when you select the 1st doc and ask for answers it gives the answer, now if you select another 2nd document and ask it ll give but again when I select the 1st document its not storing the vector database properly, I know why its not storing.
