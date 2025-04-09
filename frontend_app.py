@@ -90,6 +90,7 @@ with st.sidebar:
                     
                     # send the chunks and metadata to the backend for vector store creation
                     st.session_state.response = create_vector_store(st.session_state.chunks, st.session_state.metadatas)
+                    
                     # response stores a requests.Response object we can access the data by calling .json()
                     
                     st.session_state.processed_file = file_name
